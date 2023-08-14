@@ -1,0 +1,373 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/daizhongfu/WebstormProjects/learn/contracts/BasicToken.sol": {
+      "lastModificationDate": 1691832768229,
+      "contentHash": "177a67f58f392dccfa3c9006e826a0fa",
+      "sourceName": "contracts/BasicToken.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "BasicToken",
+        "ERC20Basic"
+      ]
+    },
+    "/Users/daizhongfu/WebstormProjects/learn/contracts/SafeMath.sol": {
+      "lastModificationDate": 1691832868949,
+      "contentHash": "95d5d415b910df2936e4cb8de24ecfb8",
+      "sourceName": "contracts/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/daizhongfu/WebstormProjects/learn/contracts/StandardToken.sol": {
+      "lastModificationDate": 1691832882560,
+      "contentHash": "5da052125d883902c4c02eed1a334b83",
+      "sourceName": "contracts/StandardToken.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BasicToken.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "ERC20",
+        "StandardToken"
+      ]
+    },
+    "/Users/daizhongfu/WebstormProjects/learn/contracts/StandardTokenWithFees.sol": {
+      "lastModificationDate": 1691832895265,
+      "contentHash": "e102da4211ce10e0fb941fa1f2729978",
+      "sourceName": "contracts/StandardTokenWithFees.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./StandardToken.sol",
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "StandardTokenWithFees"
+      ]
+    },
+    "/Users/daizhongfu/WebstormProjects/learn/contracts/Ownable.sol": {
+      "lastModificationDate": 1691832837810,
+      "contentHash": "3e58ef8422bc799ca5844d72340d5f9d",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/daizhongfu/WebstormProjects/learn/contracts/TetherToken.sol": {
+      "lastModificationDate": 1691832909261,
+      "contentHash": "c34fcf9bfa83ade8bc3a73cc90ad02b4",
+      "sourceName": "contracts/TetherToken.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./StandardTokenWithFees.sol",
+        "./Pausable.sol",
+        "./BlackList.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "TetherToken",
+        "UpgradedStandardToken"
+      ]
+    },
+    "/Users/daizhongfu/WebstormProjects/learn/contracts/BlackList.sol": {
+      "lastModificationDate": 1691832788310,
+      "contentHash": "4461445d49505a28c57ffaab3dea0f48",
+      "sourceName": "contracts/BlackList.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "BlackList"
+      ]
+    },
+    "/Users/daizhongfu/WebstormProjects/learn/contracts/Pausable.sol": {
+      "lastModificationDate": 1691832851918,
+      "contentHash": "638c01837c384b6efe6a3b7864217274",
+      "sourceName": "contracts/Pausable.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "Pausable"
+      ]
+    },
+    "/Users/daizhongfu/WebstormProjects/learn/contracts/Migrations.sol": {
+      "lastModificationDate": 1691833055743,
+      "contentHash": "67f51332022ae0f7ab079475d429c36a",
+      "sourceName": "contracts/Migrations.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/Users/daizhongfu/WebstormProjects/learn/contracts/MultiSigWallet.sol": {
+      "lastModificationDate": 1691833069605,
+      "contentHash": "30d0746d32d67b4acff03dbc5ac3a832",
+      "sourceName": "contracts/MultiSigWallet.sol",
+      "solcConfig": {
+        "version": "0.4.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "MultiSigWallet"
+      ]
+    }
+  }
+}
